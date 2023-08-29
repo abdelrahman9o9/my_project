@@ -13,3 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
+      - name: "login to docker hub"
+        run: docker login --username abdo9o9 --password dckr_pat_t-h7uugyFsBDsFZJ3-RHbAZH9f4
