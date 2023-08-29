@@ -12,8 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing github actions'
-        run: pwd
-
-      - name: 'Testing gprinting'
-        run: echo Abdo
+      - name: 'printing folders content'
+        run: ls
